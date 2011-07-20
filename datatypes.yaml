@@ -1,0 +1,37 @@
+--- 
+- name: Boolean
+  description: "Boolean: True or False."
+  ancestors: 
+  - DataType
+  instances: 
+  - "False"
+  - "True"
+- name: DataType
+  description: The basic data types such as Integers, Strings, etc.
+- name: Date
+  description: A date value in ISO 8601 date format.
+  ancestors: 
+  - DataType
+- name: Float
+  description: "Data type: Floating number."
+  ancestors: 
+  - DataType
+  - Number
+- name: Integer
+  description: "Data type: Integer."
+  ancestors: 
+  - DataType
+  - Number
+- name: Number
+  description: "Data type: Number."
+  ancestors: 
+  - DataType
+- name: Text
+  description: "Data type: Text."
+  ancestors: 
+  - DataType
+- name: URL
+  description: "Data type: URL."
+  ancestors: 
+  - DataType
+  - Text
