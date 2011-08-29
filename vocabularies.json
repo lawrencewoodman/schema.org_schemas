@@ -3087,13 +3087,6 @@
         "description": "A collection of music albums."
       },
       {
-        "name": "musicGroupMember",
-        "types": [
-          "Person"
-        ],
-        "description": "A member of the music group - for example, John, Paul, George, or Ringo."
-      },
-      {
         "name": "tracks",
         "types": [
           "MusicRecording"
@@ -3579,7 +3572,7 @@
         "types": [
           "Event"
         ],
-        "description": "The events held at this place or organization."
+        "description": "Upcoming or past events associated with this place or organization."
       },
       {
         "name": "faxNumber",
@@ -4038,7 +4031,7 @@
         "types": [
           "Event"
         ],
-        "description": "The events held at this place or organization."
+        "description": "Upcoming or past events associated with this place or organization."
       },
       {
         "name": "faxNumber",
@@ -4624,7 +4617,7 @@
         "types": [
           "Rating"
         ],
-        "description": "The rating given in this review. Note that reviews can themselves be rated. The reviewRating applies to rating given by the review. The rating property applies to the review itself, as a creative work."
+        "description": "The rating given in this review. Note that reviews can themselves be rated. The reviewRating applies to rating given by the review. The aggregateRating property applies to the review itself, as a creative work."
       }
     ]
   },
