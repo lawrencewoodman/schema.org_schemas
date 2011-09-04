@@ -2136,6 +2136,10 @@
     types: 
     - MusicAlbum
     description: A collection of music albums.
+  - name: musicGroupMember
+    types: 
+    - Person
+    description: A member of the music group - for example, John, Paul, George, or Ringo.
   - name: tracks
     types: 
     - MusicRecording
