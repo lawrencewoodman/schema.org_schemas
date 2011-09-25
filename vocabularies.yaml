@@ -881,11 +881,6 @@
     - Person
     - Organization
     description: The party holding the legal copyright to the CreativeWork.
-  - name: copyrightNotice
-    types: 
-    - Text
-    - URL
-    description: Any necessary copyright notice for claiming the intellectual property for the CreativeWork.
   - name: copyrightYear
     types: 
     - Number
@@ -975,11 +970,6 @@
     types: 
     - URL
     description: A thumbnail image relevant to the Thing.
-  - name: usageTerms
-    types: 
-    - Text
-    - URL
-    description: A statement about the usage terms pertaining to the CreativeWork.
   - name: version
     types: 
     - Number
