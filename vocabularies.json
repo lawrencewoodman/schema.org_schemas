@@ -250,7 +250,7 @@
         "types": [
           "Integer"
         ],
-        "description": "The number of words in the text of the NewsArticle."
+        "description": "The number of words in the text of the Article."
       }
     ]
   },
