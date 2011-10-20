@@ -888,7 +888,8 @@
   - name: creator
     types: 
     - Person
-    description: The creator of the UserComment.
+    - Organization
+    description: The creator/author of this CreativeWork or UserComments. This is the same as the Author property for CreativeWork.
   - name: dateCreated
     types: 
     - Date
@@ -908,7 +909,7 @@
   - name: editor
     types: 
     - Person
-    description: Editor for this content.
+    description: Specifies the Person who edited the CreativeWork.
   - name: encodings
     types: 
     - MediaObject
@@ -3877,7 +3878,8 @@
   - name: creator
     types: 
     - Person
-    description: The creator of the UserComment.
+    - Organization
+    description: The creator/author of this CreativeWork or UserComments. This is the same as the Author property for CreativeWork.
   - name: discusses
     types: 
     - CreativeWork

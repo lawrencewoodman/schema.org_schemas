@@ -1281,9 +1281,10 @@
       {
         "name": "creator",
         "types": [
-          "Person"
+          "Person",
+          "Organization"
         ],
-        "description": "The creator of the UserComment."
+        "description": "The creator/author of this CreativeWork or UserComments. This is the same as the Author property for CreativeWork."
       },
       {
         "name": "dateCreated",
@@ -1318,7 +1319,7 @@
         "types": [
           "Person"
         ],
-        "description": "Editor for this content."
+        "description": "Specifies the Person who edited the CreativeWork."
       },
       {
         "name": "encodings",
@@ -5787,9 +5788,10 @@
       {
         "name": "creator",
         "types": [
-          "Person"
+          "Person",
+          "Organization"
         ],
-        "description": "The creator of the UserComment."
+        "description": "The creator/author of this CreativeWork or UserComments. This is the same as the Author property for CreativeWork."
       },
       {
         "name": "discusses",
